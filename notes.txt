@@ -1,0 +1,31 @@
+touch yeni bir txt dosYASI AÇMAK İÇİN KULLANILIR 
+git i başlatmak için git init komutu kullan 
+dosyanı açtıktan sonra yapıyorsun dosya açma komutları ise şu şekilde :
+mkdir MyProject
+cd MyProject 
+git statusla o sırada gitin initlize ettiği ve dosyalşarı kullanup kullanmadığı gözükür
+
+git add . ile tüm dosyaları gitle authorized edebilirsin
+commit vermek için:
+git commit -m "text added"
+git logla tüm commitleri görebilirsin
+git branch ile branchleri görebilirsin
+git branch feature-> feauture branch ismi ile yeni branch açabilirsin
+git switch ile branchler arasında değişim yapabilirsin
+conflictleri elle çözmek zorundasın
+conflict hatası aldığında, sublime textle ya da ne kullanıyorsan sana hatanın nerde olduğunu gösterir
+çözdükten sonra tekrar bir commit al 
+sonra merge olur
+git checkout ile commitleri arasında gezinebilirsin
+commitin idsini kopyalayıp o commite gidebilirsin ama 
+ayn branchteki çnceki commite gittiğinde yapacakların kısıtlı yeni bi commit atabilir ve yaptıklarına bakabilirisn ve oradan devam edebilirsin
+resetlemek için
+git reset --hard (commit id)
+reset o committen sonraki tüm commitleri direkt siliyo
+revert ise silmeden belirli bir committn sonra devam etmek
+git revert (commit id)
+conflict olursa ki baya mümkün önce dçnüp conflicti düzelt sonra git add . ve sonra 
+git revert --continue çalıştır yeni commit açılır control mesajı gelir
+stash var bi de eğer commitlemeden diğer branchlere geçiş yapacaksan kullanabilirsin buna bak bence 
+git tag projenin versiyonunu belirlemek için 
+
